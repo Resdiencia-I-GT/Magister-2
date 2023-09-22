@@ -18,7 +18,7 @@ Este repositório contém o código-fonte para a refatoração da parte gráfica
 
 - **CSS:** Responsável por estilizar a página e torná-la visualmente atraente, além de torná-la responsiva para diferentes tamanhos de tela.
 
-- **JavaScript:** Usado para adicionar interatividade à página, como validação de formulários, notificações e carregamento dinâmico de conteúdo.
+- **JavaScript:** Usado para adicionar interatividade à página, como manipulações da DOM, notificações e carregamento dinâmico de conteúdo.
 
 ## Estrutura do Projeto
 
