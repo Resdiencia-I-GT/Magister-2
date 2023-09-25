@@ -40,6 +40,7 @@ header {
   height: 100%;
   display: inline-block;
   transform: 1s;
+  margin-left: 1vw;
 }
 
 .letterlogo {
@@ -57,7 +58,7 @@ header {
   font-size: 1vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .letterlogo {
     display: none;
   }
@@ -73,19 +74,57 @@ header {
   background-color: #194497;
   border-radius: 0px 30px 0px 0px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
 .icone {
   width: 19%;
   height: 80px;
-  background-color: aliceblue;
+  display: flex;
+  align-items: center;
 }
 
 .barra {
-  width: 0.5%;
-  height: 80px;
-  background-color: red;
+  width: 0.3%;
+  height: 40px;
+  background-color: rgb(129, 129, 129);
+}
+
+.icone img {
+  width: 40%;
+  margin: auto;
+  transition: 0.2s;
+  border-radius: 50%;
+}
+
+.icone img:hover {
+  width: 50%;
+  transition: 0.2s;
+  box-shadow: 1px 1px 8px #2196e4;
+}
+
+.icone p {
+  position: relative;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.icone img:hover ~ p {
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  background-color: rgb(255, 202, 56);
+  color: #3563be;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  text-wrap: nowrap;
+  height: auto;
+  width: auto;
+  top: 80px;
+  position: absolute;
+  display: inline-block;
 }
 
 .perfil {
@@ -98,11 +137,40 @@ header {
 .foto {
   height: 100%;
   width: 30%;
-  background-color: #616265;
+  display: flex;
+}
+
+.foto img {
+  height: 90%;
+  margin: auto;
+  border-radius: 50%;
 }
 
 .info {
+  background-color: #2a519e;
+  text-wrap: wrap;
+  padding: 2%;
   height: 100%;
   width: 70%;
-  background-color: #0bd8bd;
+  font-size: 1.2vw;
+  color: white;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.info a {
+  color: white;
+  padding: 3%;
+}
+
+@media (max-width: 768px) {
+  .info p {
+    display: none;
+  }
+  .info a {
+    padding: 5%;
+    display: block;
+    font-size: 1rem;
+  }
 }
