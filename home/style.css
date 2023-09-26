@@ -470,4 +470,9 @@ aside input {
     height: 6vw;
     transition: 0.2s;
   }
+
+  .menu .voltar {
+    color: rgb(255, 202, 56);
+    font-size: 6vw;
+  }
 }
