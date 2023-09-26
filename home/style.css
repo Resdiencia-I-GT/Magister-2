@@ -9,6 +9,8 @@ body {
   background-color: #d9d9d9;
 }
 
+/* HEADER */
+
 header {
   background: rgb(25, 68, 151);
   background: linear-gradient(
@@ -101,7 +103,7 @@ header {
 .icone img:hover {
   width: 50%;
   transition: 0.2s;
-  box-shadow: 1px 1px 8px #2196e4;
+  box-shadow: 1px 1px 8px #ffffff;
 }
 
 .icone p {
@@ -164,13 +166,180 @@ header {
   padding: 3%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .info p {
     display: none;
   }
+
   .info a {
-    padding: 5%;
+    padding-left: 20%;
+    padding-top: 5%;
     display: block;
     font-size: 1rem;
+  }
+
+  .icone img {
+    width: 80%;
+    margin: auto;
+    transition: 0.2s;
+    border-radius: 50%;
+  }
+}
+
+/* FIM HEADER */
+
+/* BANNER */
+
+main {
+  width: 90vw;
+  background-color: #d9d9d9;
+  margin: auto;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 15vw;
+}
+
+.banner img {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+
+.institucional {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.alunos {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+}
+
+.agenda {
+  background-color: #edeff2;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-family: Arial, Helvetica, Gotham, "Helvetica Neue", "sans-serif";
+  color: #505050;
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.agenda p {
+  display: inline-block;
+  color: #436baf;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1% 0% 0% 2%;
+}
+
+.agenda h1 {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 2% 0% 1% 2%;
+}
+
+.horario {
+  background-color: #edeff2;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-family: Arial, Helvetica, Gotham, "Helvetica Neue", "sans-serif";
+  color: #505050;
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.horario p {
+  display: inline-block;
+  color: #436baf;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1% 0% 0% 2%;
+}
+
+.horario h1 {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 2% 0% 1% 2%;
+}
+
+.horario h2 {
+  font-size: 1rem;
+
+  font-weight: bold;
+  padding: 0% 0% 1% 6%;
+}
+
+.avisos {
+  display: inline-block;
+  width: 70%;
+  height: auto;
+}
+
+.noticia {
+  background-color: #edeff2;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-family: Arial, Helvetica, Gotham, "Helvetica Neue", "sans-serif";
+  color: #505050;
+  display: block;
+  margin: auto;
+  margin-top: 1%;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.noticia p {
+  display: inline-block;
+  color: #436baf;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1% 0% 0% 2%;
+}
+
+.noticia h1 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  padding: 1% 0% 1% 2%;
+}
+
+.noticia h2 {
+  padding: 1% 2% 0% 0%;
+  color: #c400c4;
+  display: inline;
+  font-weight: normal;
+  font-size: 1rem;
+  float: right;
+}
+
+@media (max-width: 820px) {
+  .avisos {
+    display: none;
+  }
+
+  .alunos {
+    width: 100%;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    margin: auto;
   }
 }
