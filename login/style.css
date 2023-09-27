@@ -1,8 +1,7 @@
-body{
-    background-image: url('/login/img/background-login.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+body {
+    background-image: url(img/background-login.jpg);
     background-size: cover;
+    background-position: center;
 }
 .blue-block{
     background-color: var(--azul-1);
