@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+}
+
+.icone{
+    width: 20px;
+}
+
+:root{
+    --border-radius: 15px;
+    --azul-1:#194497;
+}
