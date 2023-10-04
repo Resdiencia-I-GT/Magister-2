@@ -38,7 +38,7 @@ input{
     gap: 1rem;
 }
 .logo_magister{
-    width: 400px;
+    width: 25vw;
 }
 .botao{
     background-color: var(--azul-1);

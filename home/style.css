@@ -1,3 +1,7 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(Font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +25,7 @@ header {
     rgba(42, 81, 158, 1) 54%
   );
   height: 80px;
-  width: 100vw;
+  width: 99.vw;
   display: flex;
 }
 
@@ -31,7 +35,7 @@ header {
   background-color: white;
   border-radius: 0px 30px 0px 0px;
   color: #616265;
-  font-family: Open Sans;
+  font-family: OpenSans;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -119,7 +123,7 @@ header {
   padding-right: 0.5%;
   background-color: rgb(255, 202, 56);
   color: #3563be;
-  font-family: Open Sans;
+  font-family: OpenSans;
   font-style: normal;
   font-weight: 800;
   text-wrap: nowrap;
@@ -157,7 +161,7 @@ header {
   width: 70%;
   font-size: 1.2vw;
   color: white;
-  font-family: Open Sans;
+  font-family: OpenSans;
   font-style: normal;
   font-weight: 800;
 }
@@ -420,7 +424,16 @@ aside input {
 
 .menu p {
   color: white;
-  font-family: Open Sans;
+  font-family: OpenSans;
+  text-decoration: none;
+  font-size: 1.4vw;
+  font-weight: bold;
+  padding: 2% 0% 5% 20%;
+}
+
+.menu a {
+  color: white;
+  font-family: OpenSans;
   font-size: 1.4vw;
   font-weight: bold;
   padding: 2% 0% 5% 20%;
