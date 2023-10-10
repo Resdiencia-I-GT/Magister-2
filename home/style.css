@@ -62,10 +62,9 @@ select {
   box-sizing: border-box;
 }
 
-.mainlogin img {
+.mainlogin video {
   opacity: 20%;
   scale: 100%;
-  transform: translate(-20vw, -30%);
   transition: 0.4s;
 }
 
