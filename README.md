@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Magister - Projeto de Refatoração da Interface Gráfica
 
-## Getting Started
+## Descrição do Projeto
 
-First, run the development server:
+Este repositório contém o código-fonte para a refatoração da parte gráfica do portal educacional da universidade, conhecido como "Magister". Este projeto faz parte de um trabalho realizado pelo grupo de "Residência de Software 1" em colaboração com o "Grupo Tiradentes". O objetivo principal deste trabalho é melhorar a usabilidade, acessibilidade e experiência geral dos estudantes que utilizam o portal Magister.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Objetivos do Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Melhorar a Usabilidade:** Tornar a interface do Magister mais intuitiva, facilitando a navegação e a realização de tarefas comuns, como a busca por informações acadêmicas, o acesso a recursos didáticos e a interação com colegas e professores.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Aprimorar a Acessibilidade:** Garantir que o portal seja acessível para estudantes com deficiências visuais, auditivas e motoras. Isso inclui a implementação de práticas de design inclusivo e a conformidade com as diretrizes de acessibilidade da Web (WCAG).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Responsividade:** Certificar-se de que o portal seja totalmente funcional em uma variedade de dispositivos, incluindo desktops, tablets e smartphones. Isso garantirá que os estudantes possam acessar o Magister em qualquer lugar, a qualquer momento.
 
-## Learn More
+## Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- **HTML:** Utilizado para estruturar a página da web de forma semântica, tornando-a acessível e indexável pelos motores de busca.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **CSS:** Responsável por estilizar a página e torná-la visualmente atraente, além de torná-la responsiva para diferentes tamanhos de tela.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **JavaScript:** Usado para adicionar interatividade à página, como validação de formulários, notificações e carregamento dinâmico de conteúdo.
 
-## Deploy on Vercel
+## Estrutura do Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A estrutura do projeto é organizada da seguinte forma:
+> em progresso...
+## Contribuidores:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> em progresso...
+Agradecemos a todos os contribuidores por ajudarem a melhorar a experiência dos estudantes no portal Magister.
