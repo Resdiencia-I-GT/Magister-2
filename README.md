@@ -20,6 +20,14 @@ Este repositório contém o código-fonte para a refatoração da parte gráfica
 
 - **JavaScript:** Usado para adicionar interatividade à página, como validação de formulários, notificações e carregamento dinâmico de conteúdo.
 
+- **Bootstrap:** Framework CSS que fornece componentes e estilos pré-construídos para facilitar a criação de páginas da web responsivas.
+
+- **React:** Biblioteca JavaScript para criar interfaces de usuário interativas e reutilizáveis.
+
+- **Next.js:** Framework React para criar aplicativos da web com renderização do lado do servidor e geração de páginas estáticas.
+
+- **TypeScript:** Linguagem de programação que adiciona tipagem estática ao JavaScript, tornando-o mais robusto e seguro.
+
 ## Estrutura do Projeto
 
 A estrutura do projeto é organizada da seguinte forma:
