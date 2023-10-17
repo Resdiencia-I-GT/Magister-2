@@ -1,9 +1,12 @@
 export default function Login() {
-    return (
-		// Seu código HTML vem aqui
-		<main>
-			<p className="text-muted">Olá mundo! (Página de login)</p>
-		</main>
-    )
+  return (
+    <>
+      <img src="/images/logo mgister2.png" alt="" />
+      <input type="text" placeholder="Matricula" />
+      <input type="text" placeholder="Senha" />
+      <a href="http://127.0.0.1:5500/home.html" className="entrar">
+        Entrar
+      </a>
+    </>
+  );
 }
-  
