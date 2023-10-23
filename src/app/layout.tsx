@@ -1,21 +1,19 @@
-import Header from "@/components/header";
-import "bootstrap/dist/css/bootstrap.css";
 import type { Metadata } from "next";
+import "bootstrap/dist/css/bootstrap.css";
+
+import LayoutType from "@/types/layout";
+
 
 export const metadata: Metadata = {
-  title: "Magister 2",
+  title: "Magister",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+
+export default function RootLayout({children}: LayoutType) {
   return (
     <html lang="pt-BR">
       <body>
-        <Header />
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );
