@@ -1,9 +1,7 @@
 import schedule_mock from "@/mock/home";
 import Wrapper from "@/components/main/home/wrapper";
-import Grade from "@/components/main/home/grade";
 
 export default function Home() {
-
   return (
     <>
       <div className="banner">
@@ -25,9 +23,17 @@ export default function Home() {
             <h1>• PROVA Rsidência em Software (10/10)</h1>
             <h1>• ME WEB-Front End (16/10)</h1>
           </div>
-          
-          <Grade />
-
+          <div className="horario">
+            <p>Horário: Terça-Feira</p>
+            <h1>18:45 | Bloco A - Sala 18</h1>
+            <h2>- Residência em Software</h2>
+            <h1>19:35 | Bloco A - Sala 18</h1>
+            <h2>- Residência em Software</h2>
+            <h1>20:35 | Bloco A - Sala 18</h1>
+            <h2>- Residência em Software</h2>
+            <h1>21:25 | Bloco A - Sala 18</h1>
+            <h2>- Residência em Software</h2>
+          </div>
         </div>
         <div className="avisos">
           <div className="noticia">
