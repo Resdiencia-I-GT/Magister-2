@@ -8,7 +8,7 @@ export default function Layout({children}: LayoutType ) {
   return (
     <RootLayout>
       <Header />
-      <main>{children}</main>        
+      <main>{children}</main>      
     </RootLayout>
   )
 }
