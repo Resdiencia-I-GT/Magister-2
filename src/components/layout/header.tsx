@@ -11,7 +11,7 @@ const Header = () => {
           <p className="subtitulo">Portal de serviços da UNIT</p>
         </div>
       </div>
-      <div className="nav">
+      <div className="bar_nav">
         <div className="icone">
           <img src="/login/ico1.png" />
           <p className="hidetext">Innovation Center</p>

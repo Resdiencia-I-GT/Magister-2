@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import CampusInfo from './components/campusInfo'; // Certifique-se de que o caminho está correto
+import CampusInfo from './components/campusInfo'; 
 
 const Footer = () => {
   return (

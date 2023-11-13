@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "src/style/CampusInfo.css"; // Adicione um arquivo de estilo para customizações específicas
+import "src/style/CampusInfo.css"; 
 
 const CampusInfo = async () => {
   const response = await fetch("https://magister-2.free.mockoapp.net/teste1");
