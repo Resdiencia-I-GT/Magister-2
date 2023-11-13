@@ -1,0 +1,62 @@
+.agenda-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 70px;
+  border: 1px solid blue;
+  border-radius: 8px;
+}
+
+.agenda-header {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 8px 8px 0 0;
+  padding: 10px;
+}
+
+.agenda {
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid blue;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.agenda-events {
+  padding: 10px;
+  max-height: 22vh;
+}
+
+.events-list {
+ 
+}
+
+.agenda-event {
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.add-event {
+  display: flex;
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="date"] {
+  flex: 1;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
