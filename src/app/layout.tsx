@@ -3,18 +3,14 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import LayoutType from "@/types/layout";
 
-
 export const metadata: Metadata = {
   title: "Magister",
 };
 
-
-export default function RootLayout({children}: LayoutType) {
+export default function RootLayout({ children }: LayoutType) {
   return (
     <html lang="pt-BR">
-      <body suppressHydrationWarning={true}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

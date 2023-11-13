@@ -1,0 +1,131 @@
+.menu {
+  position: absolute;
+  top: 80px;
+  width: 25vw;
+  height: auto;
+  background-color: #ea3d3d;
+  border-radius: 0 0 30px 0%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: 0.4s;
+  padding-bottom: 2%;
+}
+
+aside input {
+  display: none;
+}
+
+#menux:checked ~ .menu {
+  margin-left: -24vw;
+  transition: 0.4s;
+}
+
+#menux:checked ~ .menu .botao {
+  background-color: #ea3d3d;
+}
+
+#menux:checked ~ .menu .botao .mais1 {
+  transform: rotate(0deg);
+  transition: 0.4s ease-in-out;
+  margin-right: 1vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  margin-left: 0vw;
+}
+
+.menu .botao {
+  cursor: pointer;
+  margin-top: 5vw;
+  margin-left: 25vw;
+  text-align: center;
+  font-weight: bolder;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5vw;
+  height: 5vw;
+  font-size: 8rem;
+  color: white;
+  background-color: #3d65ea;
+  border-radius: 0 50% 50% 0%;
+  transition: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.mais1 {
+  transform: rotate(180deg);
+  width: 0;
+  height: 0;
+  border-top: 1.4vw solid transparent;
+  border-bottom: 1.4vw solid transparent;
+  border-left: 2.3vw solid rgb(255, 202, 56);
+  margin-right: 1vw;
+  margin-left: 0vw;
+  transition: 0.4s;
+}
+
+.menu p {
+  color: white;
+  font-family: OpenSans;
+  font-size: 1.7vw;
+  font-weight: bold;
+  padding: 1% 0% 5% 20%;
+}
+
+.menu img {
+  width: 100%;
+  position: absolute;
+  display: inline;
+}
+
+.menu br {
+  display: none;
+}
+
+.menu .voltar {
+  color: rgb(255, 202, 56);
+  font-size: 1.6vw;
+}
+
+@media (max-width: 820px) {
+  .menu {
+    width: 60vw;
+  }
+
+  .menu p {
+    font-size: 4vw;
+    padding: 2% 0% 5% 10%;
+  }
+
+  #menux:checked ~ .menu {
+    margin-left: -59vw;
+    transition: 0.4s;
+  }
+
+  .menu .botao {
+    width: 10vw;
+    height: 10vw;
+    margin-left: 60vw;
+    transition: 0.4s;
+  }
+
+  .menu p {
+    padding: 5% 0% 5% 20%;
+  }
+
+  .menu br {
+    display: block;
+  }
+
+  .mais1 {
+    width: 0;
+    height: 0;
+    border-top: 3vw solid transparent;
+    border-bottom: 3vw solid transparent;
+    border-left: 4.5vw solid rgb(255, 202, 56);
+    transition: 0.4s;
+  }
+
+  .menu .img {
+    margin-bottom: 6vw;
+  }
+}

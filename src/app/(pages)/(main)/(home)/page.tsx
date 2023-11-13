@@ -1,5 +1,6 @@
 import schedule_mock from "@/mock/home";
 import Wrapper from "@/components/main/home/wrapper";
+import Menu from "@/components/menu";
 
 export default function Home() {
   return (
@@ -9,12 +10,9 @@ export default function Home() {
       </div>
       <div className="institucional">
         <div className="alunos">
-          {schedule_mock.map((item) => 
-            <Wrapper
-              title={item.title}
-              contentList={item.contentList}
-            />
-          )}
+          {schedule_mock.map((item) => (
+            <Wrapper title={item.title} contentList={item.contentList} />
+          ))}
           <div className="agenda">
             <p>Agenda</p>
             <h1>• ME Laboratório de Programação (02/10)</h1>
@@ -92,6 +90,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Menu />
     </>
   );
 }
