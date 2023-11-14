@@ -1,5 +1,6 @@
 import schedule_mock from "@/mock/home";
 import Wrapper from "@/components/main/home/wrapper";
+import Agenda from "@/components/main/home/Agenda";
 
 export default function Home() {
   return (
@@ -16,12 +17,7 @@ export default function Home() {
             />
           )}
           <div className="agenda">
-            <p>Agenda</p>
-            <h1>• ME Laboratório de Programação (02/10)</h1>
-            <h1>• ME Banco de Dados (05/10)</h1>
-            <h1>• PROVA Segurança da Informação (10/10)</h1>
-            <h1>• PROVA Rsidência em Software (10/10)</h1>
-            <h1>• ME WEB-Front End (16/10)</h1>
+            <Agenda />
           </div>
           <div className="horario">
             <p>Horário: Terça-Feira</p>
