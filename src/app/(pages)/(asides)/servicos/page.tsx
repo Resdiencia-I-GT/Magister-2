@@ -1,5 +1,5 @@
 import "./Section.css"
-function Section() {
+export default function Page() {
     return(
         <aside className="section">
             <div className="botao_imagem">
@@ -34,4 +34,3 @@ function Section() {
     )
 }
 
-export default Section
