@@ -9,7 +9,9 @@ export default function Layout({children}: LayoutType ) {
   return (
     <RootLayout>
       <Header />
-      <main>{children}</main>      
+      <main style={{'paddingTop': '80px'}}>
+        {children}
+      </main>      
       <Footer/>  
     </RootLayout>
   )
