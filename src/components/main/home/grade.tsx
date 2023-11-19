@@ -17,6 +17,7 @@ const Grade = async () => {
                     title={item.title}
                     location={item.location}
                     time={item.time}
+                    key={`${item.location} - ${item.time}`}
                 />
             ))}
         </div>
@@ -25,14 +26,14 @@ const Grade = async () => {
 
 
 const Item = (props: GradeItemProps) => {
-    const { title, location, time} = props;
+    const { title, location, time } = props;
 
     return(
         <div className="d-flex flex-column justify-content-center">
             <div className="d-flex gap-4 py-4 px-3">
                 <div className="d-flex flex-column align-items-center justify-content-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
-                        <path d="M25,2C12.318,2,2,12.317,2,25s10.318,23,23,23s23-10.317,23-23S37.682,2,25,2z M37.735,12.679L27.644,23.61 C27.864,24.027,28,24.496,28,25c0,0.76-0.292,1.447-0.758,1.976l3.632,6.539c0.269,0.482,0.094,1.091-0.388,1.359 C30.332,34.96,30.165,35,30.001,35c-0.352,0-0.692-0.186-0.875-0.515l-3.631-6.535C25.333,27.977,25.17,28,25,28 c-1.657,0-3-1.343-3-3s1.343-3,3-3c0.42,0,0.82,0.088,1.183,0.244l10.082-10.923c0.375-0.404,1.007-0.431,1.413-0.056 C38.084,11.64,38.109,12.272,37.735,12.679z"></path>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 32 32">
+                        <path d="M 16 4 C 9.382813 4 4 9.382813 4 16 C 4 22.617188 9.382813 28 16 28 C 22.617188 28 28 22.617188 28 16 C 28 9.382813 22.617188 4 16 4 Z M 16 6 C 21.535156 6 26 10.464844 26 16 C 26 21.535156 21.535156 26 16 26 C 10.464844 26 6 21.535156 6 16 C 6 10.464844 10.464844 6 16 6 Z M 15 8 L 15 17 L 22 17 L 22 15 L 17 15 L 17 8 Z"></path>
                     </svg>
                 </div>
                 <div className="d-flex flex-column justify-content-center gap-1">
