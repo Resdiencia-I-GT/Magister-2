@@ -1,5 +1,10 @@
 # Magister - Projeto de Refatoração da Interface Gráfica
 
+## Instruções
+- **Rodar para web:** `npm run dev`
+- **Rodar para Android:** `npx cap open android` (precisa ter o Android Studio instalado)
+- **Rodar para iOS:** `npx cap open ios` (precisa ter o Xcode instalado)
+        
 ## Descrição do Projeto
 
 Este repositório contém o código-fonte para a refatoração da parte gráfica do portal educacional da universidade, conhecido como "Magister". Este projeto faz parte de um trabalho realizado pelo grupo de "Residência de Software 1" em colaboração com o "Grupo Tiradentes". O objetivo principal deste trabalho é melhorar a usabilidade, acessibilidade e experiência geral dos estudantes que utilizam o portal Magister.
@@ -25,6 +30,8 @@ Este repositório contém o código-fonte para a refatoração da parte gráfica
 - **React:** Biblioteca JavaScript para criar interfaces de usuário interativas e reutilizáveis.
 
 - **Next.js:** Framework React para criar aplicativos da web com renderização do lado do servidor e geração de páginas estáticas.
+
+- **Ionic:** Framework para criar aplicativos móveis híbridos com tecnologias da web.
 
 - **TypeScript:** Linguagem de programação que adiciona tipagem estática ao JavaScript, tornando-o mais robusto e seguro.
 
