@@ -8,7 +8,7 @@ import LayoutType from '@/types/layout'
 export default function Layout({ children }: LayoutType) {
   return (
     <RootLayout>
-      <Header />
+      <Header hideOptions />
       <main style={{ 'paddingTop': '80px' }}>
         {children}
       </main>
