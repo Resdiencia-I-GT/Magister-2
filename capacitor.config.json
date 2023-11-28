@@ -3,6 +3,6 @@
     "appName": "magister2",
     "bundledWebRuntime": false,
     "npmClient": "npm",
-    "webDir": "build",
+    "webDir": "www",
     "cordova": {}
 }

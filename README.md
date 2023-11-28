@@ -92,5 +92,6 @@ A estrutura do projeto é organizada da seguinte forma:
 - <a href="https://github.com/antonionetodeveloper">**Antônio Fernandes De Santana Neto**</a>
 - <a href="https://github.com/victxrcb">**Victor Castelo Branco Brasileiro**</a>
 - <a href="https://github.com/Raffadosantos">**Rafael Morais Rozendo do Santos**</a>
+- <a href="https://github.com/vinicius010neto">**Vinicius de Jesus Alves**</a>
 
 Squad 21🤘
