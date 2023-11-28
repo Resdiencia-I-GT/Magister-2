@@ -71,8 +71,15 @@ section {
   height: fit-content;
 }
 
-.content-container > div > div img {
-  width: 6%;
+.content-container > div > div > div {
+  width: 12rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.content-container > div > div > div > img {
+  width: 100%;
+  padding: 20px;
 }
 
 .content-container > div > div p {
@@ -106,9 +113,17 @@ section {
     width: 50%;
   }
 
-  .content-container > div > div img {
-    width: 8%;
+  .content-container > div > div > div {
+    width: 14rem;
+    background-color: white;
+    border-radius: 50%;
   }
+
+  .content-container > div > div > div > img {
+    width: 100%;
+    padding: 10px;
+  }
+
 }
 
 @media (max-width: 900px) {
@@ -138,9 +153,17 @@ section {
     width: 50%;
   }
 
-  .content-container > div > div img {
-    width: 8%;
+  .content-container > div > div > div {
+    width: 16rem;
+    background-color: white;
+    border-radius: 50%;
   }
+
+  .content-container > div > div > div > img {
+    width: 100%;
+    padding: 10px;
+  }
+
 
   body {
     font-size: 14px;
@@ -158,53 +181,60 @@ section {
       font-size: 12pt;
     }
   }
+}
 
-  @media (max-width: 600px) {
-    section {
-      margin-top: 2rem;
-    }
+@media (max-width: 600px) {
+  section {
+    margin-top: 2rem;
+  }
 
-    .section > div:nth-child(1) {
-      right: 0;
-      top: 10px;
-    }
+  .section > div:nth-child(1) {
+    right: 0;
+    top: 10px;
+  }
 
-    .botao_imagem {
-      left: 3%;
-    }
+  .botao_imagem {
+    left: 3%;
+  }
 
-    .content-container {
-      width: 95vw;
-    }
+  .content-container {
+    width: 95vw;
+  }
 
-    .content-container > h2 {
-      font-size: 20pt;
-    }
+  .content-container > h2 {
+    font-size: 20pt;
+  }
 
-    .content-container > div > div h3 {
-      font-size: 12pt;
-      width: 60%;
-    }
+  .content-container > div > div h3 {
+    font-size: 12pt;
+    width: 60%;
+  }
 
-    .content-container > div > div img {
-      width: 10%;
-    }
+  .content-container > div > div > div {
+    width: 18%;
+    background-color: white;
+    border-radius: 50%;
+  }
 
-    body {
-      font-size: 14px;
-      line-height: 1.5;
-    }
+  .content-container > div > div > div > img {
+    width: 100%;
+    padding: 10px;
+  }
 
-    h2 {
-      font-size: 24pt;
-    }
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
 
-    .content-container > div > div h3 {
-      font-size: 9pt;
-    }
+  h2 {
+    font-size: 24pt;
+  }
 
-    .content-container > div > div p {
-      font-size: 10pt;
-    }
+  .content-container > div > div h3 {
+    font-size: 13pt;
+  }
+
+  .content-container > div > div p {
+    display: none;
   }
 }

@@ -16,7 +16,9 @@ export default function Page() {
         <h2 className="titulo">Serviços oferecidos</h2>
         <div>
           <div className="sessao_1">
-            <img src="/servico/servico_extensao_curso.jpg" />
+            <div>
+              <img src="/servico/servico_extensao_curso.jpg" />
+            </div>
             <h3>Inscrição em Cursos de Extensão</h3>
             <p>
               Escolhendo esta opção você poderá ter acesso à oferta atual de
@@ -27,7 +29,9 @@ export default function Page() {
             </p>
           </div>
           <div className="sessao_2">
-            <img src="/servico/servicos_processos.jpg" />
+            <div>
+              <img src="/servico/servicos_processos.jpg" />
+            </div>
             <h3>Processos Acadêmicos</h3>
             <p>
               Esta opção permite ao público externo ou aos alunos inativos darem
@@ -38,7 +42,9 @@ export default function Page() {
             </p>
           </div>
           <div className="sessao_3">
-            <img src="/servico/servico_boleto.jpg   " />
+            <div>
+              <img src="/servico/servico_boleto.jpg" />
+            </div>
             <h3>Boleto avulso</h3>
             <p>
               Com esta opção você poderá ter acesso ao boleto de uma ou mais
