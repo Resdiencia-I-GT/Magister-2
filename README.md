@@ -86,7 +86,7 @@ A estrutura do projeto é organizada da seguinte forma:
 
 ## Desenvolvedores
 - <a href="https://github.com/xxRobs">**Robson Henrique de Santana Dantas**</a>
-- <a href="https://github.com/vinicius010neto">**Luan Brício Cruz Santos**</a>
+- <a href="https://github.com/LuanBricio">**Luan Brício Cruz Santos**</a>
 - <a href="https://github.com/HugoORamos">**Hugo Oliveira Ramos**</a>
 - <a href="https://github.com/Viniosk">**Vinícius de Andrade Lima**</a>
 - <a href="https://github.com/RaphaelGoettenauer">**Raphael Moraes Goettenauer de Oliveira**</a>
